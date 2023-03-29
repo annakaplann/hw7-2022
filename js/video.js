@@ -2,6 +2,7 @@ var video = document.getElementById("player1");
 
 window.addEventListener("load", function() {
 	console.log("Good job opening the window")
+	video.load();
 	video.autoplay = false;
 	video.loop = false;
 	if (video.autoplay === false){
